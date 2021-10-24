@@ -17,7 +17,10 @@ function App() {
         Change to {newButtonColor}
       </button>
 
-      <input type="checkbox" onChange={(event) => setIsDisabled(event.target.checked)}/>
+      <label>
+        Disable button
+        <input type="checkbox" onChange={(event) => setIsDisabled(event.target.checked)}/>
+      </label>
     </>
   );
 }
